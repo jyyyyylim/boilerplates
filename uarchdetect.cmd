@@ -1,4 +1,4 @@
-::lovingly abuses the sysvar PROCESSOR_ARCHITECTURE that is innate in probably all windows installations
+::abuses sysvar PROCESSOR_ARCHITECTURE that is innate in probably all windows installations
 ::only 5 possible values: IA64, AMD64, ARM64, EM64T(presumably depreciated) and x86. only the latter indicates a 32bit device
 ::operating on this assumption, any value outside of x86 is a 64bit system
 ::could apply to some kind of installer...
@@ -6,7 +6,6 @@
 @echo off
 chcp 65001
 ::codepage utf8 to prevent sperging due to unicode char
-::if sysvar proc_architecture not X86 assume its x64 else its x32
 echo detecting μarch... 
 
 if not "%PROCESSOR_ARCHITECTURE%" EQU "X86" (
