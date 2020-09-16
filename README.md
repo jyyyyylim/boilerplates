@@ -1,2 +1,2 @@
 # boilerplates
-interesting snippets of use
+interesting snippets
