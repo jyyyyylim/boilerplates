@@ -41,17 +41,3 @@ if apiretregion==decode:
     print('region matches')
 elif apiretregion!=decode:
     print('region does not match')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
