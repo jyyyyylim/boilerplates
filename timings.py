@@ -39,14 +39,6 @@ def npand(comp):
     else: det='even'
     return det    
 '''
-#def div2(comp):
-#    calc=comp/2
-
-#print('bithack:', timeit.timeit(stmt=bithack))
-#print('mod2:', timeit.timeit(stmt=mod2))
-print('simpbithack:', timeit.timeit(stmt=simpbithack))
-print('simpmod2:', timeit.timeit(stmt=simpmod2)) 
-print('npand:', timeit.timeit(stmt=npand)) 
 
 import matplotlib.pyplot as plt
 x=numpy.array(['bithack','mod2','npand'])
