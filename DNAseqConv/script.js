@@ -1,4 +1,4 @@
-//product of helping https://github.com/CaptainChicky/ with his thing
+//product of helping https://github.com/CaptainChicky/ with his thing, optimizing it in the process
 //credits for this idea go to him 
 
 //define mappings between dna, mrna and amino acids
